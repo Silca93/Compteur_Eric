@@ -1,7 +1,10 @@
 body {
     overflow-y: hidden;
     overflow-x: hidden;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+
 }
 
 .main {
@@ -15,10 +18,13 @@ body {
     
 }
 
+.text {
+    font-weight: 450;
+}
 
 .left {
     padding-bottom: 75px;
-    padding-left: 300px;
+    padding-left: 500px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -68,7 +74,7 @@ body {
     height: 100dvh;
     background-color: rgba(131,59,163,255);
     color: white;
-    padding-right: 300px;
+    padding-right: 500px;
 }
 #of,
 #yt, 
@@ -76,6 +82,7 @@ body {
 font-family: 'Gothic A1', sans-serif;
 font-family: 'Orbitron', sans-serif;
 font-size: 30px;
+
 }
 
 #of {
